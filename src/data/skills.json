@@ -1,0 +1,134 @@
+[
+  {
+    "name": "Python",
+    "description": "Proficient in reading and writing python code. Worked with ML and Data Science in Python as well basic backend development with flask and fastapi and frontend with streamlit libraries. Have built Desktop Applications with PyQt and tkinter.",
+    "type": "technical",
+    "proficiency": 95
+  },
+  {
+    "name": "C/C++",
+    "description": "Strong base in C/C++ and OOPs fundamentals with projects covering low level design, data structures, file handling and from-scratch logic. Novice to advanced concepts such as metaprogramming, memory management, smart pointers and virtual classes.",
+    "type": "technical",
+    "proficiency": 80
+  },
+  {
+    "name": "HTML, CSS, JS",
+    "description": "Basic understanding of syntax and able to debug or modify existing code to enhance features.",
+    "type": "technical",
+    "proficiency": 70
+  },
+  {
+    "name": "SQL",
+    "description": "Comfortable with syntax of PostgreSQL and MySQL. Strong understanding of queries, procedures and functions to optimize database performance.",
+    "type": "technical",
+    "proficiency": 80
+  },
+  {
+    "name": "Linux",
+    "description": "Firm grasp over Linux commands. Helped with installation and setup for multiple people. Fixed broken kernels several times.",
+    "type": "technical",
+    "proficiency": 85
+  },
+  {
+    "name": "Git/Github",
+    "description": "Comfortable with commands and managing projects with multiple people. Able to resolve merge conflicts and workflow/Github Actions errors.",
+    "type": "technical",
+    "proficiency": 90
+  },
+  {
+    "name": "Docker",
+    "description": "Able to build, deploy and run docker containers. Basic understading of commands.",
+    "type": "technical",
+    "proficiency": 70
+  },
+  {
+    "name": "Jupyter/Kaggle",
+    "description": "Comfortable with working in notebook environments and writing test code for datasets.",
+    "type": "technical",
+    "proficiency": 80
+  },
+  {
+    "name": "Generative AI",
+    "description": "Work easily with GenAI tools like ChatGPT, Deepseek, Gemini, Claude, etc. Worked with Ollama and Local models before. Comfortable with HuggingFace/groq APIs.",
+    "type": "technical",
+    "proficiency": 75
+  },
+  {
+    "name": "Public Speaking",
+    "description": "Presented technical topics to audiences of 50+ at developer meetups.",
+    "type": "communication",
+    "proficiency": 80
+  },
+  {
+    "name": "Volunteering",
+    "description": "Able to help other people during participation in events. Hospitable and friendly nature.",
+    "type": "communication",
+    "proficiency": 85
+  },
+  {
+    "name": "Event Planning and Co-ordination",
+    "description": "Have handled logistics of events with 100+ people. Able to adapt and improvise.",
+    "type": "communication",
+    "proficiency": 90
+  },
+  {
+    "name": "Project Planning",
+    "description": "Clearly define and goals and roles in team. Find compromise to satisfy all parties involved.",
+    "type": "communication",
+    "proficiency": 85
+  },
+  {
+    "name": "Team Leadership",
+    "description": "Led a team of 4 developers during hackathons and college projects.",
+    "type": "communication",
+    "proficiency": 75
+  },
+  {
+    "name": "Competitive Programming",
+    "description": "Practiced 1000+ problems mainly on Codeforces, Achieved Expert Rank. Involved in analyzing space and time complexity, dry running cases, debugging edge cases and optimizing performance.",
+    "type": "logical",
+    "proficiency": 90
+  },
+  {
+    "name": "Data Structures and Algorithms",
+    "description": "Practiced 1000+ problems mainly on Leetcode, Achieved Guardian badge. Mastering the fundamentals, solving problems in a modular and clean approach and implementing readable code.",
+    "type": "logical",
+    "proficiency": 90
+  },
+  {
+    "name": "System Design",
+    "description": "Designing scalable architectures with microservices,efficient caching and load balancing.",
+    "type": "logical",
+    "proficiency": 70
+  },
+  {
+    "name": "Software Engineering",
+    "description": "Estimating effort and resources for projects with heuristic evaluation. Implementing Waterfall/Prototyping/Agile Model to approach projects/development tasks.",
+    "type": "logical",
+    "proficiency": 80
+  },
+  {
+    "name": "DBMS",
+    "description": "Strong base in ACID principles, normalization rules, smart database design and ER-Relational Model Mapping.",
+    "type": "logical",
+    "proficiency": 85
+  },
+  {
+    "name": "OS and Automata Design",
+    "description": "Understanding of Computer architecture, interrupts, permissions, processes and kernel. Able to design DFA and NDFA and understand CFG/Turing Machine.",
+    "type": "logical",
+    "proficiency": 75
+  },
+  {
+    "name": "AIML",
+    "description": "Polished fundamentals in traditional algorithms like A*, FOL, Hill climbing, Simulated annealing, decision trees, naive bayes classification, linear/logistic regression using gradient descent, etc.",
+    "type": "logical",
+    "proficiency": 80
+  },
+  {
+    "name": "Computer Networks and Cybersecurity",
+    "description": "Knowledgable about OSI/TCP Model. Basic understanding of encryption/decryption/hashing/key exchange algorithms.",
+    "type": "logical",
+    "proficiency": 70
+  }
+]

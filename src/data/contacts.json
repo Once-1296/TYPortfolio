@@ -1,0 +1,62 @@
+[
+  {
+    "platform": "GitHub",
+    "profileLink": "https://github.com/Once-1296",
+    "name": "Once-1296",
+    "logo": "/assets/gh_logo.png"
+  },
+  {
+    "platform": "LinkedIn",
+    "profileLink": "https://linkedin.com/in/awwab-wadekar-a42a65330",
+    "name": "Awwab Wadekar",
+    "logo": "/assets/lnkdin_logo.png"
+  },
+  {
+    "platform": "Email",
+    "profileLink": "mailto:awwab.wadekar@gmail.com",
+    "name": "awwab.wadekar@gmail.com",
+    "logo": "/assets/gmail_logo.png"
+  },
+  {
+    "platform": "Phone",
+    "profileLink": "+91 99879 65492",
+    "name": "+91 99879 65492",
+    "logo": "/assets/phn_logo.png"
+  },
+  {
+    "platform": "Leetcode",
+    "profileLink": "https://leetcode.com/u/Awwabcoder23/",
+    "name": "Awwabcoder23",
+    "logo": "/assets/lc_logo.png"
+  },
+  {
+    "platform": "Codeforces",
+    "profileLink": "https://codeforces.com/profile/Awwab_coder123",
+    "name": "Awwab_coder123",
+    "logo": "/assets/cf_logo.png"
+  },
+  {
+    "platform": "Atcoder",
+    "profileLink": "https://atcoder.jp/users/AWWABAWAD",
+    "name": "AWWABAWAD",
+    "logo": "/assets/ac_logo.png"
+  },
+  {
+    "platform": "Codechef",
+    "profileLink": "https://www.codechef.com/users/glee_scene_30",
+    "name": "glee_scene_30",
+    "logo": "/assets/cc_logo.jpg"
+  },
+  {
+    "platform": "Hackerrank",
+    "profileLink": "https://www.hackerrank.com/profile/awwab_wadekar",
+    "name": "awwab_wadekar",
+    "logo": "/assets/hc_logo.png"
+  },
+  {
+    "platform": "Codolio",
+    "profileLink": "https://codolio.com/profile/Oncecoder",
+    "name": "Oncecoder",
+    "logo": "/assets/codolio_logo.jpg"
+  }
+]

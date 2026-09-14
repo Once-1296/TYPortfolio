@@ -1,0 +1,35 @@
+[
+  {
+    "id": "proj-1",
+    "name": "System Health Metrics Analyser : ",
+    "description": "An end-to-end AI-powered system health monitoring and diagnostics system combining desktop system analytics, cloud-based intelligence, agentic AI, and machine learning.",
+    "duration": "November 2025 - January 2026",
+    "githubLink": "https://github.com/MohdHedayati/System-Health-Metric-Analyser",
+    "people": ["https://github.com/Once-1296","https://github.com/MohdHedayati","https://github.com/tmvalijib24","https://github.com/AsparkArcane"],
+    "domains": ["Streamlit", "Langchain", "PyQt5", "Supabase", "groq", "GenAI", "RAG", "PostgreSQL"],
+    "docsLink": "https://mohdhedayati.github.io/System-Health-Metric-Analyser/",
+    "photo": "/assets/inherit_proj.png"
+  },
+  {
+    "id": "proj-2",
+    "name": "Train Your Foes",
+    "description": "Train Your Foes is not just a game; it's a proof-of-concept exploration into adaptive artificial intelligence, wrapped in a cyber-horror aesthetic.",
+    "duration": "July 2025 - October 2025",
+    "githubLink": "https://github.com/AvanishSalunke/TRAIN-YOUR-FOES",
+    "people": ["https://github.com/AvanishSalunke","https://github.com/AsparkArcane","https://github.com/Once-1296","https://github.com/Ishaan0132","https://github.com/Abhay-Varnekar"],
+    "domains": ["Unity", "C#", "Game Development", "Reinforcement Learning", "UI/UX Design"],
+    "docsLink": "https://avanishsalunke.github.io/TRAIN-YOUR-FOES/",
+    "photo": "/assets/tyf_proj.png"
+  },
+  {
+    "id": "proj-3",
+    "name": "Custom SQL Journey",
+    "description": "A hand-built SQL engine in C++ — from raw bytes on disk to an interactive terminal editor.",
+    "duration": "July 2026 - September 2026",
+    "githubLink": "https://github.com/Once-1296/Custom_SQL_Journey",
+    "people": ["https://github.com/Once-1296"],
+    "domains": ["C++", "LLD", "DBMS","CMake", "SQL"],
+    "docsLink": "https://once-1296.github.io/Custom_SQL_Journey/",
+    "photo": "/assets/sql_proj.png"
+  }
+]

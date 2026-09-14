@@ -1,0 +1,11 @@
+{
+  "backgroundImages": {
+    "home": "/assets/bg/home.jpg",
+    "education": "/assets/bg/education.png",
+    "skills": "/assets/bg/skills.jpg",
+    "achievements": "/assets/bg/achievements.jpg",
+    "extracurriculars": "/assets/bg/extracurricular.jpg",
+    "projects": "/assets/bg/projects.jpg",
+    "contacts": "/assets/bg/contact.png"
+  }
+}

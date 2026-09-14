@@ -1,0 +1,96 @@
+[
+  {
+    "formType": 1,
+    "id": "ex-6",
+    "eventName": "45 Day CP/DSA Sheet Challenge, CP Club VJTI",
+    "description": "Reviewed submissions for a daily problem solving challenge put forward by CP Club, VJTI. Was involved in the decision process of the results that nominated students to CP Club.",
+    "dateTime": "June - July 2026",
+    "role": "Club Head",
+    "photo": "/assets/45_day_chl.jpg"
+  },
+  {
+    "formType": 1,
+    "id": "ex-5",
+    "eventName": "RouteQuest, CoC VJTI",
+    "description": "RouteQuest was an introductory CTF organized by CoC VJTI for FY students. I was a tester + volunteer for the event.",
+    "dateTime": "April 23rd 2026",
+    "role": "Core Committee Member",
+    "photo": "/assets/routequest.png"
+  },
+  {
+    "formType": 1,
+    "id": "ex-4",
+    "eventName": "Codehunt, CoC VJTI",
+    "description": "Codehunt was a Competitive Programming + Treasure Hunt event organised by SY core of CoC VJTI. I participated as volunteer, problem setter,tester and main coordinator of the event. Successfully resolved technical issues faced during the day of contest and managed to complete event successfully. Reviewed submissions post contest for integrity of results.",
+    "dateTime": "April 9th 2026",
+    "role": "Core Committee Member",
+    "photo": "/assets/codehunt.png"
+  },
+  {
+    "formType": 1,
+    "id": "ex-3",
+    "eventName": "OpenCV Workshop, Project X VJTI",
+    "description": "An intermediate level workshop held by SYs at Project X VJTI to introduce FYs to OpenCV in python and image processing in general. I participated as a speaker and volunteer, helping students debug their code and successfully execute the provided demos.",
+    "dateTime": "April 11th-13th 2026",
+    "role": "Core Committee Member",
+    "photo": "/assets/opencv.png"
+  },
+  {
+    "formType": 1,
+    "id": "ex-2",
+    "eventName": "Xplore Workshop, Project X VJTI",
+    "description": "Xplore was an introductory workshop held by SYs at Project X VJTI for FY. I was a volunteer and technical member behind the event content. Successfully handled student doubts, helped them debug their git/python code and resolved issues faced by students. Later handled a repository with over 500 commits and 100 PRs to help students grow and practice what they learnt in the workshop.",
+    "dateTime": "February 24th-25th 2026",
+    "role": "Core Committee Member",
+    "photo": "/assets/xplore.png"
+  },
+  {
+    "formType": 1,
+    "id": "ex-1",
+    "eventName": "Nexus, Digital VJTI",
+    "description": "Nexus is the flagship event of Digital VJTI. I helped as a Volunteer and Technical Support Member for CTF and Debugathon(Blackbox) events organised under Nexus. Handled queries from several dozen participants and ensured smooth participation and enjoyment of contestants.",
+    "dateTime": "February 13th 2026",
+    "role": "Technical Committee Member",
+    "photo": "/assets/nexus.png"
+  },
+  {
+    "formType": 2,
+    "id": "ex-11",
+    "positionTitle": "CP Club Head",
+    "description": "Organising events, writing blogs, clearing student doubts and guiding students to become better at Competitive Programming and prepare for national and international events such as IICPC and ICPC.",
+    "duration": "July 2026 - Present",
+    "logo": "/assets/cp_club_vjti_logo.jpg"
+  },
+  {
+    "formType": 2,
+    "id": "ex-10",
+    "positionTitle": "Mentor at Project X VJTI",
+    "description": "Mentor for Game Development Project. Guide juniors on project and help them learn technical + soft skills. Review and scrutinise other projects covering domains such as Cybersecurity, Machine Learning, DBMS, etc.",
+    "duration": "July 2026 - Present",
+    "logo": "/assets/x_logo.jpg"
+  },
+  {
+    "formType": 2,
+    "id": "ex-9",
+    "positionTitle": "Technical Member of Digital VJTI",
+    "description": "Held interviews for selecting FY members for committee. Helped as a volunteer in Nexus, the flagship event.",
+    "duration": "January 2026 - February 2026",
+    "logo": "/assets/digi_logo.jpg"
+  },
+  {
+    "formType": 2,
+    "id": "ex-8",
+    "positionTitle": "Mentee of Project X VJTI",
+    "description": "Worked on Game Development project with 2 co-mentees, under guidance of seniors. Attended biweekly meets for consistent review of progress. Participated in Hacktoberfest. Attended committee domain sessions and participated/volunteered for committee events.",
+    "duration": "July 2025 - May 2026",
+    "logo": "/assets/x_logo.jpg"
+  },
+  {
+    "formType": 2,
+    "id": "ex-7",
+    "positionTitle": "Member of CP Club VJTI",
+    "description": "Practiced Codeforces and Leetcode under guidance of seniors. Prepared for ICPC/IICPC and participated in multiple inter college competitions.",
+    "duration": "October 2024 - May 2026",
+    "logo": "/assets/cp_club_vjti_logo.jpg"
+  }
+]

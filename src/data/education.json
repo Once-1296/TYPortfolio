@@ -1,0 +1,35 @@
+[
+  {
+    "id": "edu-1",
+    "type": "B.Tech",
+    "board": "Autonomous University",
+    "instituteName": "Veermata Jijabai Technological Institute (VJTI)",
+    "instituteLocation": "H R Mahajani Rd, Matunga East, Mumbai, Maharashtra 400019",
+    "duration": "2024 - 2028",
+    "grade": "9.49 CGPA",
+    "institutePhoto": "/assets/uni_vjti.jpg",
+    "marksheetPhoto": "/assets/cgpa.jpg"
+  },
+  {
+    "id": "edu-2",
+    "type": "HSC",
+    "board": "Maharashtra Pune Board",
+    "instituteName": "Wilson College",
+    "instituteLocation": "XR46+G8P, Chowpatty Seaface, Road, Chowpatty, Mumbai, Maharashtra 400007",
+    "duration": "2022 - 2024",
+    "grade": "93.5%",
+    "institutePhoto": "/assets/clg_wilson.jpg",
+    "marksheetPhoto": "/assets/12th_mark.jpg"
+  },
+  {
+    "id": "edu-3",
+    "type": "SSC",
+    "board": "Maharashtra Pune Board",
+    "instituteName": "St.Mary's High School (SSC)",
+    "instituteLocation": "XRCP+2F7, Sardar Balwant Singh Dhody Marg, Tara Bagh, Mazgaon, Mumbai, Maharashtra 400010",
+    "duration": "2010 - 2022",
+    "grade": "94%",
+    "institutePhoto": "/assets/school_marys.jpg",
+    "marksheetPhoto": "/assets/10th_mark.jpg"
+  }
+]
