@@ -9,6 +9,7 @@ import AchievementsPage from './pages/AchievementsPage';
 import ExtracurricularsPage from './pages/ExtracurricularsPage';
 import ProjectsPage from './pages/ProjectsPage';
 import ContactsPage from './pages/ContactsPage';
+import NotFoundPage from './pages/NotFoundPage';
 
 const AnimatedRoutes = () => {
   const location = useLocation();
@@ -23,6 +24,7 @@ const AnimatedRoutes = () => {
         <Route path="/extracurriculars" element={<ExtracurricularsPage />} />
         <Route path="/projects" element={<ProjectsPage />} />
         <Route path="/contacts" element={<ContactsPage />} />
+        <Route path="*" element={<NotFoundPage />} />
       </Routes>
     </AnimatePresence>
   );

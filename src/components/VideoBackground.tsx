@@ -3,7 +3,7 @@ import { useTheme } from '../hooks/useTheme';
 import settingsData from '../data/settings.json';
 
 interface VideoBackgroundProps {
-  page: 'home' | 'education' | 'skills' | 'achievements' | 'extracurriculars' | 'projects' | 'contacts';
+  page: 'home' | 'education' | 'skills' | 'achievements' | 'extracurriculars' | 'projects' | 'contacts' | '404';
 }
 
 const VideoBackground: React.FC<VideoBackgroundProps> = ({ page }) => {

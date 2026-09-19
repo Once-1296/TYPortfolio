@@ -6,6 +6,10 @@
     "achievements": "/assets/bg/achievements.jpg",
     "extracurriculars": "/assets/bg/extracurricular.jpg",
     "projects": "/assets/bg/projects.jpg",
-    "contacts": "/assets/bg/contact.png"
+    "contacts": "/assets/bg/contact.png",
+    "404": "/assets/bg/404.jpg"
+  },
+  "images": {
+    "404Caption": "/assets/404error.png"
   }
 }

@@ -85,5 +85,6 @@ export interface Settings {
     extracurriculars?: string;
     projects?: string;
     contacts?: string;
+    "404"?: string;
   };
 }
