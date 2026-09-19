@@ -48,10 +48,10 @@ const Modal: React.FC<ModalProps> = ({ isOpen, onClose, children }) => {
           >
             <button
               onClick={onClose}
-              className="absolute top-4 right-4 p-2 rounded-full hover:bg-black/10 dark:hover:bg-white/10 transition-colors"
+              className="absolute top-4 right-4 z-50 p-2.5 rounded-full bg-[var(--text-primary)] text-[var(--bg-primary)] hover:scale-110 active:scale-95 transition-all shadow-xl border-2 border-transparent hover:border-accent"
               aria-label="Close modal"
             >
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
                 <line x1="18" y1="6" x2="6" y2="18"></line>
                 <line x1="6" y1="6" x2="18" y2="18"></line>
               </svg>

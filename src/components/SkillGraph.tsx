@@ -284,7 +284,7 @@ const SkillGraph: React.FC<SkillGraphProps> = ({ skills }) => {
   return (
     <div className="w-full h-full relative" ref={containerRef}>
       {/* Legend */}
-      <div className="absolute top-4 left-4 glass p-4 rounded-xl flex flex-col gap-2 pointer-events-none z-10 shadow-lg">
+      <div className="absolute top-24 md:top-4 right-4 md:right-auto md:left-4 glass p-3 md:p-4 rounded-xl flex flex-col gap-1.5 md:gap-2 pointer-events-none z-10 shadow-lg">
         <h3 className="font-bold text-sm mb-1 uppercase tracking-wider text-text-secondary">Skill Types</h3>
         <div className="flex items-center gap-2">
           <div className="w-4 h-4 rounded-full shadow-[0_0_8px_#3b82f6]" style={{ backgroundColor: '#3b82f6' }}></div>
@@ -302,7 +302,7 @@ const SkillGraph: React.FC<SkillGraphProps> = ({ skills }) => {
 
       {/* Selected Skill Panel */}
       {selectedSkill && (
-        <div className="absolute bottom-10 left-1/2 -translate-x-1/2 glass p-6 rounded-2xl max-w-md w-full shadow-2xl z-20 max-h-[60vh] overflow-y-auto custom-scrollbar border border-accent/20">
+        <div className="absolute bottom-6 md:bottom-10 left-1/2 -translate-x-1/2 glass p-5 md:p-6 rounded-2xl max-w-md w-[calc(100%-2rem)] md:w-full shadow-2xl z-20 max-h-[50vh] md:max-h-[60vh] overflow-y-auto custom-scrollbar border border-accent/20">
           <button 
             className="absolute top-4 right-4 text-text-secondary hover:text-text-primary transition-colors"
             onClick={() => setSelectedSkill(null)}

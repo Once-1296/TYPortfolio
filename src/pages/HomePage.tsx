@@ -15,7 +15,7 @@ const HomePage: React.FC = () => {
   return (
     <>
       <VideoBackground page="home" />
-      <PageTransition isHome={true} className="overflow-hidden">
+      <PageTransition isHome={true} className="overflow-x-hidden overflow-y-auto custom-scrollbar md:overflow-hidden pt-20 pb-10 md:pt-0 md:pb-0">
         
         {/* Floating accent orbs */}
         <div className="absolute inset-0 pointer-events-none overflow-hidden">
@@ -40,12 +40,12 @@ const HomePage: React.FC = () => {
         </div>
 
         {/* Main Content */}
-        <div className="z-10 flex flex-col items-center justify-center text-center max-w-4xl px-4 w-full relative">
+        <div className="z-10 flex flex-col items-center justify-center text-center max-w-4xl px-4 w-full relative shrink-0">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2, duration: 0.8 }}
-            className="glass p-8 md:p-12 rounded-3xl shadow-2xl w-full border-glow"
+            className="glass p-6 py-10 md:p-12 rounded-3xl shadow-2xl w-full border-glow"
           >
             <motion.h1 
               className="text-5xl md:text-7xl font-bold mb-4 tracking-tight"

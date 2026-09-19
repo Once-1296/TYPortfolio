@@ -13,9 +13,9 @@ const navItems = [
 
 const HexNav: React.FC = () => {
   return (
-    <div className="absolute inset-0 pointer-events-none">
+    <>
       {/* Container for desktop corner placing */}
-      <div className="hidden md:block w-full h-full relative">
+      <div className="hidden md:block absolute inset-0 pointer-events-none w-full h-full z-0">
         {navItems.map((item, index) => {
           // Calculate positions roughly around the edges
           const angle = (index / navItems.length) * Math.PI * 2 - Math.PI / 2;
@@ -52,25 +52,26 @@ const HexNav: React.FC = () => {
       </div>
       
       {/* Mobile grid layout at bottom */}
-      <div className="md:hidden absolute bottom-10 left-0 w-full flex flex-wrap justify-center gap-4 px-4 pointer-events-auto mt-20 pb-10">
+      <div className="md:hidden w-full flex flex-wrap justify-center gap-3 px-2 mt-6 pb-6 pointer-events-auto z-20">
         {navItems.map((item, index) => (
           <motion.div
             key={item.path}
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: index * 0.1 }}
+            className="w-1/3 min-w-[100px] flex justify-center"
           >
             <Link 
               to={item.path}
-              className="glass px-4 py-3 rounded-2xl shadow-lg flex flex-col items-center gap-1 hover:bg-accent/20 transition-colors"
+              className="glass px-3 py-3 w-full rounded-2xl shadow-lg flex flex-col items-center gap-1.5 hover:bg-accent/20 transition-colors"
             >
-              <span className="text-xl">{item.icon}</span>
-              <span className="text-xs font-semibold">{item.label}</span>
+              <span className="text-2xl">{item.icon}</span>
+              <span className="text-[11px] font-semibold text-center">{item.label}</span>
             </Link>
           </motion.div>
         ))}
       </div>
-    </div>
+    </>
   );
 };
 
