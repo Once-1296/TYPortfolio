@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 
@@ -12,10 +12,19 @@ const navItems = [
 ];
 
 const HexNav: React.FC = () => {
+  const [isShort, setIsShort] = useState(() => typeof window !== 'undefined' ? window.innerHeight < 550 : false);
+
+  useEffect(() => {
+    const handleResize = () => setIsShort(window.innerHeight < 550);
+    handleResize(); // Initial check
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
   return (
     <>
       {/* Container for desktop corner placing */}
-      <div className="hidden md:block absolute inset-0 pointer-events-none w-full h-full z-0">
+      <div className={`hidden md:block absolute inset-0 pointer-events-none w-full h-full z-0 ${isShort ? '!hidden' : ''}`}>
         {navItems.map((item, index) => {
           // Calculate positions roughly around the edges
           const angle = (index / navItems.length) * Math.PI * 2 - Math.PI / 2;
@@ -51,8 +60,8 @@ const HexNav: React.FC = () => {
         })}
       </div>
       
-      {/* Mobile grid layout at bottom */}
-      <div className="md:hidden w-full flex flex-wrap justify-center gap-3 px-2 mt-6 pb-6 pointer-events-auto z-20">
+      {/* Mobile/Short screen grid layout at bottom */}
+      <div className={`w-full flex-wrap justify-center gap-3 px-2 mt-6 md:mt-2 pb-6 pointer-events-auto z-20 ${isShort ? 'flex' : 'md:hidden flex'}`}>
         {navItems.map((item, index) => (
           <motion.div
             key={item.path}

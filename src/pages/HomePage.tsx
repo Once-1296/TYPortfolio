@@ -15,7 +15,7 @@ const HomePage: React.FC = () => {
   return (
     <>
       <VideoBackground page="home" />
-      <PageTransition isHome={true} className="overflow-x-hidden overflow-y-auto custom-scrollbar md:overflow-hidden pt-20 pb-10 md:pt-0 md:pb-0">
+      <PageTransition isHome={true} className="overflow-x-hidden overflow-y-auto custom-scrollbar pt-20 pb-10 md:pt-0 md:pb-0">
         
         {/* Floating accent orbs */}
         <div className="absolute inset-0 pointer-events-none overflow-hidden">
